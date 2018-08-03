@@ -1,0 +1,103 @@
+body {
+ margin: 0 auto;
+ text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  margin-top: 4em;
+  width: 550px;
+  height: auto;
+  background: #f6efe8;
+  border: 20px solid #f6efe8;
+  border-top: 0;
+}
+
+.subC {
+  margin: 0 auto;
+  border: 1px solid #cfbea9;
+  width: 91%;
+}
+
+img {
+  height: 34px;
+  position: relative;
+  top: 22px;
+}
+
+.inner h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+}
+
+.inner h1 {
+  font-family: Georgia, Helvetica, Serif, sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  color: #c7a98d;
+  width: 81%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.inner hr {
+  color: #c7a98d;
+  width: 25%;
+}
+
+.inner>p {
+  width: 85%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 140%;
+}
+
+.buttonContainer {
+  margin: 1em;
+}
+
+button {
+  background: #310b02;
+  color: white;
+  padding: 1em;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
+
+button:hover {
+  transition: background 1s ease-in;
+  background: #6495ed;
+  color: #310b02;
+}
+
+button .label:before{
+  transition: content, 1s ease-out;
+  content: 'SHOP NOW';
+
+}
+
+button:hover .label:before{
+  transition: content 1s ease-in;
+  content: '';
+  margin: 0;
+  visibility: hidden;
+}
+
+button:hover .label:after {
+  transition: content 1s ease-in;
+  content:'WELCOME15';
+}
+
+.inner h6 {
+ font-weight: 400;
+ font-size: 7px;
+ padding-bottom: 5em;
+}
